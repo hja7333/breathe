@@ -16,7 +16,7 @@ function PostcodeSearch({ setSearchTerm }) {
   return (
     <form onSubmit={handleSubmit}>
       <label htmlFor="search">
-        Search for carbon intensity - Enter postcode:{" "}
+        Search for carbon intensity - Enter the first part of your postcode:{" "}
       </label>
 
       <input id="search" onChange={handleChange} />
